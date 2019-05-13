@@ -44,6 +44,7 @@ document.onkeyup = function (event) {
         document.getElementById("win").innerText = win;
 
         document.getElementById("left").innerText = guessleft;
+        alert("You win")
         if (result === true) {
             guessleft = 9;
 
@@ -71,8 +72,8 @@ document.onkeyup = function (event) {
         document.getElementById("loss").innerText = loss;
         document.getElementById("left").innerText = guessleft;
         document.getElementById("user-text").innerText = "";
-
-        console.log("" + guessleft);
+        
+        console.log("" + guessleft);  
 
     }
 // calling function for rolling word

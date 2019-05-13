@@ -3,6 +3,22 @@
     <title>Phsycigame</title>
     <script src="assets/javascript/game.js">
     </script>
+    <style>
+    body{
+        background-image: url("assets/image/back1.jpg");
+        box-sizing: border-box;
+        position: relative;
+        
+    }
+    .traget{
+        background-image: url("assets/image/dot1.jpg");
+        width:500px;
+        height: 60px;
+        position: absolute;
+        
+    }
+
+    </style>
 </head>
 
 <body onload = "mygame()">
@@ -11,11 +27,11 @@
     <div>
             
     <h1 id = "traget">The Psychic Game</h1>
-    <h5>Guess what letter i am thinking of:</h5>
-    <div>Wins: <span id="win">   </span></div>
-    <div>Losses:<span id="loss">   </span></div>
-    <div>Guesses Left:<span id="left">   </span></div>
-    <div>Your Guess so far: <span id="user-text">   </span> </div>
+    <h4>Guess what letter i am thinking of:</h4>
+    <div><h3>Wins: <span id="win">   </span></h3></div>
+    <div><h3>Losses:<span id="loss">   </span></h3></div>
+    <div><h3>Guesses Left:<span id="left">   </span></h3></div>
+    <div><h3>Your Guess so far: <span id="user-text">   </span></h3> </div>
     
 </div>
 </body>
